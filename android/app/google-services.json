@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "525996499588",
+    "firebase_url": "https://caltax-f9e4e.firebaseio.com",
+    "project_id": "caltax-f9e4e",
+    "storage_bucket": "caltax-f9e4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525996499588:android:7f47ade2cdd166a8",
+        "android_client_info": {
+          "package_name": "com.daniona.caltax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525996499588-hpvbu8vtjq1akqnb44k5bel2qli3qus8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUTON0cAu_quao56QMtOXX4D7n6dlO0D4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4056098139575656~7402256803"
+    }
+  ],
+  "configuration_version": "1"
+}

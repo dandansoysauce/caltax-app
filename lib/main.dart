@@ -106,7 +106,7 @@ class _CaltaxFormState extends State<CaltaxForm> {
         ),
         persistentFooterButtons: <Widget>[
           Container(
-            height: 50.0,
+            height: 40.0,
           )
         ],
     );
