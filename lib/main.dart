@@ -91,29 +91,24 @@ class _CaltaxFormState extends State<CaltaxForm> {
             ),
             ConstrainedBox(
                 constraints: new BoxConstraints(minHeight: 120.0),
-                child: Column(
-                  children: <Widget>[
-                    Container(
-                      height: 70.0,
-                      child: FlatButton(
-                        onPressed: () => _calculateTax(context),
-                        color: Colors.yellow,
-                        child: Center(
-                            child: Text(
-                              'Calculate',
-                              style: TextStyle(fontSize: 36.0, fontWeight: FontWeight.bold),
-                            )
-                        )
-                      ),
-                    ),
-                    Container(
-                      height: 50.0,
-                    )
-                  ],
-                )
+                child: FlatButton(
+                  onPressed: () => _calculateTax(context),
+                  color: Colors.yellow,
+                  child: Center(
+                      child: Text(
+                        'Calculate',
+                        style: TextStyle(fontSize: 36.0, fontWeight: FontWeight.bold),
+                      )
+                  )
+                ),
             )
           ],
-        )
+        ),
+        persistentFooterButtons: <Widget>[
+          Container(
+            height: 50.0,
+          )
+        ],
     );
   }
 
