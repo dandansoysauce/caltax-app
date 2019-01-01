@@ -7,7 +7,7 @@ description: Calculate your Tax. Based on 2018 TRAIN Law.
 # Both the version and the builder number may be overridden in flutter
 # build by specifying --build-name and --build-number, respectively.
 # Read more about versioning at semver.org.
-version: 1.1.0+2
+version: 1.2.0+3
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
@@ -24,6 +24,15 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.7.0"
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path_android: 'resources/ic_launcher.png'
+  image_path_ios: 'resources/ic_launcher.png'
+  adaptive_icon_background: 'resources/ic_background.png'
+  adaptive_icon_foreground: 'resources/ic_launcher.png'
 
 
 # For information on the generic Dart part of this file, see the
